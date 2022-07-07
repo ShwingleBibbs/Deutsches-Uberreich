@@ -1,6 +1,0 @@
-UBR = {
-	original_tag = GRU
-	has_country_flag = UBR_putsche
-}
-
-
