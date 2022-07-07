@@ -1,4 +1,4 @@
-# Deutsches-Uberreich [v1.1]
+# Deutsches-Überreich [v1.1]
 
 The submod that was too hot for steam is finally on Github.
 
