@@ -1,0 +1,55 @@
+﻿l_english: 
+
+### HIMMLER WILDIN ###
+SWA_arctic_logistics:0 "Arctic Logistics"
+SWA_arctic_logistics_desc:0 "Building an island fortress a continent away isn't easy, doing so undetected is even harder. Nevertheless, our plans will continue, no matter how long it takes."
+SWA_strip_mining:0 "Strip Mining"
+SWA_strip_mining_desc:0 "Geological surveys showed some promising areas for mining, we shall begin at once."
+SWA_whaling_operations:0 "Whaling Operations"
+SWA_whaling_operations_desc:0 "One of the original tasks of the Neuschwabenland expedition was to construct whaling facilities, we now have the proper resources in hand to complete this task."
+SWA_base_211:0 "Base 211"
+SWA_base_211_desc:0 "The frozen, rocky terrain may be a formidable defense, but our South Georgia base will need far greater defenses if it is to protect our soldiers."
+SWA_naval_drills:0 "Naval Drills"
+SWA_naval_drills_desc:0 "With a well-equipped forward operating base now at our disposal, it is time to conduct naval drills to prepare for any contingencies in the Americas."
+
+VSJ_core_1:0 "Crush the Resistance"
+VSJ_gibs_1:0 "Weapon Shipments"
+VSJ_core_2:0 "Establish Local Administration"
+VSJ_gibs_2:0 "Continued Supply"
+VSJ_core_3:0 "Cement Control"
+
+VST_core_1:0 "Crush the Resistance"
+VST_gibs_1:0 "Weapon Shipments"
+VST_core_2:0 "Establish Local Administration"
+VST_gibs_2:0 "Continued Supply"
+VST_core_3:0 "Cement Control"
+
+VKR_core_1:0 "Crush the Resistance"
+VKR_gibs_1:0 "Weapon Shipments"
+VKR_core_2:0 "Establish Local Administration"
+VKR_gibs_2:0 "Continued Supply"
+VKR_core_3:0 "Cement Control"
+
+VKB_core_1:0 "Crush the Resistance"
+VKB_gibs_1:0 "Weapon Shipments"
+VKB_core_2:0 "Establish Local Administration"
+VKB_gibs_2:0 "Continued Supply"
+VKB_core_3:0 "Cement Control"
+
+VKM_core_1:0 "Crush the Resistance"
+VKM_gibs_1:0 "Weapon Shipments"
+VKM_core_2:0 "Establish Local Administration"
+VKM_gibs_2:0 "Continued Supply"
+VKM_core_3:0 "Cement Control"
+
+VKK_core_1:0 "Crush the Resistance"
+VKK_gibs_1:0 "Weapon Shipments"
+VKK_core_2:0 "Establish Local Administration"
+VKK_gibs_2:0 "Continued Supply"
+VKK_core_3:0 "Cement Control"
+
+HYP_core_1:0 "Crush the Resistance"
+HYP_gibs_1:0 "Weapon Shipments"
+HYP_core_2:0 "Establish Local Administration"
+HYP_gibs_2:0 "Continued Supply"
+HYP_core_3:0 "Cement Control"
