@@ -1,0 +1,44 @@
+#reload countrycolors
+
+ARY = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VSJ = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VST = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VKR = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VKB = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VKM = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+VKK = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+HYP = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+UBR = {
+  color = rgb { 29 31 35 }
+  color_ui = rgb { 29 31 35 }
+}
+
+
+
+
+
+

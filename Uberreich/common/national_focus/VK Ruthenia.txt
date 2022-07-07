@@ -1,0 +1,254 @@
+
+focus_tree = {
+	id = VK_Ruthenia
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKR
+		}
+	}
+
+
+
+	default = no
+
+focus = {
+		id = VKR_core_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 0
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VKR = {
+
+								add_state_core = 202
+								add_state_core = 194
+								add_state_core = 95
+								add_state_core = 997
+								add_state_core = 93
+								add_state_core = 792
+								add_state_core = 201
+								add_state_core = 199
+								add_state_core = 791
+								add_state_core = 198
+								add_state_core = 1228
+								add_state_core = 1244
+								add_state_core = 1245
+								add_state_core = 1241
+								add_state_core = 1240
+								add_state_core = 1237
+								add_state_core = 1230
+								add_state_core = 1242
+								add_state_core = 1243
+								add_state_core = 1238
+								add_state_core = 1233
+								add_state_core = 1232
+								add_state_core = 1221
+								add_state_core = 203
+								add_state_core = 192
+								add_state_core = 241
+								add_state_core = 193
+
+			}
+	}
+}
+
+focus = {
+		id = VKR_gibs_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VKR_core_1 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VKR = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+focus = {
+		id = VKR_core_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 2
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VKR_gibs_1 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VKR = {
+
+								add_state_core = 193
+								add_state_core = 225
+								add_state_core = 259
+								add_state_core = 259
+								add_state_core = 226
+								add_state_core = 197
+								add_state_core = 196
+								add_state_core = 1234
+								add_state_core = 228
+								add_state_core = 227
+								add_state_core = 1231
+								add_state_core = 1239
+								add_state_core = 821
+								add_state_core = 200
+								add_state_core = 221
+								#add_state_core = 224
+								#add_state_core = 220
+								#add_state_core = 222
+								#add_state_core = 258
+								#add_state_core = 223
+				}
+			}
+	}
+
+
+focus = {
+		id = VKR_gibs_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 3
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VKR_core_2 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VKR = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+
+focus = {
+		id = VKR_core_3
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 4
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VKR_gibs_2 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VKR = {
+
+								add_state_core = 259
+								add_state_core = 197
+								add_state_core = 1220
+								add_state_core = 1221
+								add_state_core = 226
+								add_state_core = 196
+								add_state_core = 137
+								add_state_core = 245
+								add_state_core = 218
+								add_state_core = 224
+								add_state_core = 220
+								add_state_core = 222
+								add_state_core = 258
+								add_state_core = 223
+								add_state_core = 228
+								add_state_core = 1229
+								add_state_core = 240
+								add_state_core = 260
+								add_state_core = 265
+			}
+	}
+}
+
+
+
+
+}

@@ -1,0 +1,213 @@
+
+focus_tree = {
+	id = VS_Turania
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VST
+		}
+	}
+
+
+
+	default = no
+
+focus = {
+		id = VST_core_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 0
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VST = {
+
+								add_state_core = 402
+								add_state_core = 587
+								add_state_core = 583
+								add_state_core = 404
+								add_state_core = 590
+								add_state_core = 712
+								add_state_core = 588
+								add_state_core = 810
+								add_state_core = 40
+								add_state_core = 589
+								add_state_core = 582
+
+
+			}
+	}
+}
+
+focus = {
+		id = VST_gibs_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VST_core_1 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VST = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+focus = {
+		id = VST_core_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 2
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VST_gibs_1 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VST = {
+								add_state_core = 584
+								add_state_core = 861
+								add_state_core = 585
+								add_state_core = 405
+								add_state_core = 732
+								add_state_core = 1042
+
+
+				}
+			}
+	}
+
+
+focus = {
+		id = VST_gibs_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 3
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VST_core_2 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VST = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+
+focus = {
+		id = VST_core_3
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 4
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VST_gibs_2 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VST = {
+								add_state_core = 407
+								add_state_core = 586
+								add_state_core = 1212
+								add_state_core = 1209
+								add_state_core = 1211
+								add_state_core = 1210 
+								add_state_core = 1203
+			}
+	}
+}
+
+
+
+
+}

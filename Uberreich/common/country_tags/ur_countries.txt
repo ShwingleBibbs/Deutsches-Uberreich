@@ -1,0 +1,14 @@
+
+ARY = "countries/Endreich.txt"
+SWA = "countries/New_Swabia.txt"
+UBR = "countries/Uberreich.txt"
+
+VSJ = "countries/VS Judea.txt"
+VST = "countries/VS Turania.txt"
+
+VKR = "countries/VK Ruthenia.txt"
+VKB = "countries/VK Baltenland.txt"
+VKM = "countries/VK Moskowien.txt"
+VKK = "countries/VK Kaukasus.txt"
+
+HYP = "countries/Hyperborea.txt"

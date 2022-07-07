@@ -1,0 +1,206 @@
+
+focus_tree = {
+	id = VS_Judea
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VSJ
+		}
+	}
+
+
+
+	default = no
+
+focus = {
+		id = VSJ_core_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 0
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VSJ = {
+
+								add_state_core = 653
+								add_state_core = 572
+								add_state_core = 403
+								add_state_core = 580
+
+			}
+	}
+}
+
+focus = {
+		id = VSJ_gibs_1
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 1
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VSJ_core_1 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VSJ = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+focus = {
+		id = VSJ_core_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 2
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VSJ_gibs_1 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VSJ = {
+
+								add_state_core = 516
+								add_state_core = 566
+								add_state_core = 567
+								add_state_core = 577
+								add_state_core = 571
+								add_state_core = 570
+								add_state_core = 578
+				}
+			}
+	}
+
+
+focus = {
+		id = VSJ_gibs_2
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 5
+		x = 9
+		y = 3
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VSJ_core_2 }
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VSJ = {
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+			}
+	}
+}
+
+
+focus = {
+		id = VSJ_core_3
+		icon = GFX_UBR_natsoc_victory
+
+		cost = 15
+		x = 9
+		y = 4
+
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available = {
+			is_puppet_of = UBR
+
+
+		}
+
+		prerequisite = { focus = VSJ_gibs_2 }
+
+
+		available_if_capitulated = yes
+		cancel_if_invalid = yes
+
+		completion_reward = {
+		VSJ = {
+								add_state_core = 576
+								add_state_core = 568
+								add_state_core = 569
+								add_state_core = 644
+								add_state_core = 1200
+								add_state_core = 1201
+								add_state_core = 1202
+
+			}
+	}
+}
+
+
+
+
+}
