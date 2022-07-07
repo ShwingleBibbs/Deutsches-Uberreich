@@ -1,0 +1,15 @@
+technologies = {
+
+	vril_saucer = {
+
+		enable_equipments = {
+			vril_equipment_1
+		}
+
+
+		research_cost = 2
+			allow = {
+			always = no
+		}
+	}
+}

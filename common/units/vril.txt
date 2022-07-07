@@ -1,0 +1,9 @@
+sub_units = {
+	vril_saucer = {
+		sprite = vril
+		priority = 1
+		active = yes
+		type = { fighter cas naval_bomber tactical_bomber strategic_bomber}
+		need = { vril_equipment = 1 }
+		categories = { category_fighter category_cas}
+	}
